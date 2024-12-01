@@ -2,9 +2,9 @@ import React from 'react';
 
 function Card({ image, titre, description }) {
   return (
-    <div className="w-1/3 bg-gray-100 p-4 rounded-lg shadow-lg">
+    <div className="bg-white p-4 rounded-lg shadow-lg hover:translate-y-[-12px] transition-all">
       <div
-        className="w-full h-64 bg-cover bg-center rounded-lg"
+        className="w-full h-48 object-cover bg-cover bg-center rounded-lg"
         style={{ backgroundImage: `url(${image})` }}
       ></div>
       <h3 className="text-xl font-bold mt-4">{titre}</h3>
